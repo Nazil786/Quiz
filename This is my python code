@@ -1,0 +1,70 @@
+print('Please answer the question in yes or no')
+
+#question 1#
+score = 0
+
+answer = input('Is Australia both a country and a continent? ')
+
+if answer == 'yes':
+    print('correct')
+    score = score + 1
+    print('your score is:', score)
+else:
+    print('incorrect')
+    score = score - 1
+    print('your score is:', score)
+
+
+#question 2#
+
+
+answer = input('Does the human body have 206 bones in adulthood? ')
+
+if answer == 'yes':
+    print('correct')
+    score = score + 1
+    print('your score is:', score)
+else:
+    print('incorrect')
+    score = score - 1
+    print('your score is:', score)
+
+
+
+answer = input('Is the chemical symbol for gold Au?')
+
+if answer == 'yes':
+    print('correct')
+    score = score + 1
+    print('your score is:', score)
+else:
+    print('incorrect')
+    score = score - 1
+    print('your score is:', score)
+
+
+
+answer = input('Is the capital of Canada Ottawa?')
+
+if answer == 'yes':
+    print('correct')
+    score = score + 1
+    print('your score is:', score)
+else:
+    print('incorrect')
+    score = score - 1
+    print('your score is:', score)
+
+
+
+answer = input('Is the Amazon River longer than the Nile?')
+
+if answer == 'yes':
+    print('correct')
+    score = score + 1
+    print('your score is:', score)
+else:
+    print('incorrect')
+    score = score - 1
+    print('your score is:', score)
+
